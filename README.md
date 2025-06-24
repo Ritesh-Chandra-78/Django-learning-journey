@@ -1,2 +1,2 @@
 # Django-learning-journey
-My journey of learning Django — from basics to advanced concepts, including views, inside the app templates, static file load and hyperlink and more.
+A comprehensive personal Django learning repository covering all key concepts — from basics to advanced — including models, views, templates, forms, authentication, admin, REST APIs, and deployment.
