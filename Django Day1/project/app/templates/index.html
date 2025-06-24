@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- add css file -->
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+<body>
+    <h1>user details</h1>
+    <strong>{{data}}</strong>
+    <br> <br>
+
+    <!-- add images -->
+    <img src="{% static 'images/download.jpeg' %}" alt="Image not found">
+
+
+    <!-- add js file -->
+    <script src="{% static 'js/index.js' %}"></script>
+</body>
+</html>
